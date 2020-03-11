@@ -1,0 +1,186 @@
+<!-- Сообщаем браузеру как стоит обрабатывать эту страницу -->
+<!DOCTYPE html>
+<!-- Оболочка документа, указываем язык содержимого -->
+<html lang="ru">
+<!-- Заголовок страницы, контейнер для других важных данных (не отображается) -->
+
+<head>
+	<meta charset="UTF-8">
+	<!-- Заголовок страницы в браузере -->
+	<title>Жилой комплекс</title>
+	<!-- Подключаем CSS -->
+	<link rel="stylesheet" href="css/style.css" />
+	<!-- Кодировка страницы -->
+
+</head>
+<!-- Отображаемое тело страницы -->
+
+<body>
+	<header class="header">
+		<div class="container">
+			<div class="header__menu">
+				<img src="img/logo.svg" alt="#" class="logo">
+				<nav class="menu">
+					<a href="#" class="link">О комплексе</a>
+					<a href="#" class="link">Район</a>
+					<a href="#" class="link">Каталог квартир</a>
+					<a href="#" class="link">Ипотека</a>
+					<a href="#" class="link">Контакты</a>
+				</nav>
+			</div>
+			<div class="header__intro">
+				<h1 class="header__title">Жилой комплекс в историческом центре</h1>
+				<img src="img/intro/mouse.svg" alt="#" class="header_img">
+				<div class="intro">
+					<div class="intro__address">
+						<img src="img/intro/point.svg" alt="#" class="intro__img">
+						<p class="intro__text">Наб. реки Фонтанки 10-15</p>
+					</div>
+					<div class="intro__address">
+						<img src="img/intro/call.svg" alt="#" class="intro__img">
+						<p class="intro__text">8 (812) 123-45-67</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="info">
+		<div class="container">
+			<div class="reviews">
+				<div class="reviews__block">
+					<img class="reviews__bench" src="img/reviews/bench.png" alt="#">
+					<p class="reviews__text">Рядом исторические парки и скверы</p>
+				</div>
+
+				<div class="reviews__block">
+					<img class="reviews__building" src="img/reviews/building.png" alt="#">
+					<p class="reviews__text">Полностью обустроенный</p>
+				</div>
+
+				<div class="reviews__block">
+					<img class="reviews__fountain" src="img/reviews/fountain.png" alt="#">
+					<p class="reviews__text">10 фонтанов на территории</p>
+				</div>
+
+				<div class="reviews__block">
+					<img class="reviews__bicycle" src="img/reviews/bicycle.png" alt="#">
+					<p class="reviews__text">6 км велодорожек</p>
+				</div>
+
+			</div>
+
+			<div class="item">
+				<h2 class="item__title">Наши квартиры</h2>
+				<div class="item__img">
+					<div class="item__block">
+						<img src="img/intro/item/item.png" alt="#" class="item__foto">
+						<img src="img/intro/item/item2.png" alt="#" class="item__foto">
+					</div>
+					<div class="item__block">
+						<img src="img/intro/item/item.png" alt="#" class="item__foto">
+						<img src="img/intro/item/item2.png" alt="#" class="item__foto">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="cta">
+		<div class="container">
+			<div class="cta__block">
+				<div class="cta_textblock">
+					<h2 class="cta__title">Хотите посмотреть?</h2>
+					<p class="cta__text">Lorem Ipsum - это текст-"рыба", часто используемый в печати и вэб-дизайне.
+						Lorem Ipsum является стандартной "рыбой" для текстов на латинице с начала XVI века. В то время
+						некий безымянный печатник создал большую коллекцию размеров и форм шрифтов, используя Lorem
+						Ipsum для
+						распечатки образцов.
+					</p>
+				</div>
+				<div class="cta__form">
+					<div class="form">
+						<div class="name">
+							<p class="name__text">Ваше имя</p>
+						</div>
+						<div class="telephone">
+							<p class="telephone_text">Ваш телефон</p>
+						</div>
+					</div>
+					<div class="form__input">
+						<p class="form__text">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+						<button class="form__button">Посмотреть район</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="we">
+		<div class="container">
+			<img src="img/video.png" alt="#" class="we_img">
+
+			<div class="map">
+				<h2 class="map__title">Район на карте</h2>
+				<script type="text/javascript" charset="utf-8" async
+					src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Ac924629e14c5673a4389338bcde74d9bf6dbc6e30be64be9a21fbb6edaeaa2c1&amp;width=843&amp;height=426&amp;lang=ru_RU&amp;scroll=true">
+				</script>
+			</div>
+
+
+			<div class="we__form">
+				<h2 class="we__title">Есть вопросы?</h2>
+				<div class="we__form-block">
+					<div class="we__block-text">
+						<p class="we_text">*Мы никому не передаем ваши данные. И не сохраняем ваш номер в базу.</p>
+					</div>
+					<div class="name">
+						<p class="name__text">Ваше имя</p>
+					</div>
+					<div class="telephone">
+						<p class="telephone_text">Ваш телефон</p>
+					</div>
+					<button class="form__button">Посмотреть район</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+			<div class="footer__block">
+				<img src="img/logo.svg" alt="#">
+
+				<mav class="footer_col">
+					<a href="#" class="footer__link">О комплексе</a><br>
+					<a href="#" class="footer__link">Район</a><br>
+					<a href="#" class="footer__link">Каталог квартир</a><br>
+					<a href="#" class="footer__link">Ипотека</a><br>
+					<a href="#" class="footer__link">Контакты</a><br>
+				</mav>
+
+				<nav class="footer_col">
+					<a href="#" class="footer__link">О комплексе</a><br>
+					<a href="#" class="footer__link">Район</a><br>
+					<a href="#" class="footer__link">Каталог квартир</a><br>
+					<a href="#" class="footer__link">Ипотека</a><br>
+					<a href="#" class="footer__link">Контакты</a><br>
+				</nav>
+
+				<div class="footer_col2">
+					<p class="footer__text">Адрес: Наб. реки Фонтанки 10-15</p>
+					<p class="footer__text">Телефон: 8 (812) 123-45-67</p>
+					<p class="footer__text">Отдел продаж: 10:00 - 20:00</p>
+					<p class="footer__text">E-mail: vip@housevip.ru</p>
+
+					<img src="img/Footer/YouTube.svg" alt="" class="footer__img">
+					<img src="img/Footer/Vk.svg" alt="" class="footer__img">
+					<img src="img/Footer/facebook.svg" alt="" class="footer__img">
+					<img src="img/Footer/instagram.svg" alt="" class="footer__img">
+				</div>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
